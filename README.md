@@ -271,19 +271,5 @@ cd frontend
 npm run build
 ```
 
-## Security Notes
 
-- API keys belong in environment variables, never source files.
-- Generating content does not change important state.
-- Saving content always requires a human decision.
-- This starter has no authentication yet and uses student ID `1` as a teaching simplification.
-- Add authentication and authorization before deploying for real students.
 
-## Future Improvements
-
-- Add Spring Security and real student accounts.
-- Replace hard-coded student ID `1` with the authenticated user.
-- Return structured quiz and planner JSON from Gemini.
-- Persist conversation memory for long-term study history.
-- Add pagination and search for saved plans, quizzes, and chat history.
-- Add deployment configuration for a managed MySQL database and hosted frontend.
